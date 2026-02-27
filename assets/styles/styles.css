@@ -165,7 +165,7 @@ input{
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
-    height: 14rem;
+    height: 17rem;
     width: auto;
 }
 
@@ -177,6 +177,7 @@ input{
     width: 45%;
     height: 14rem;
     border-radius: 2px;
+
 }
 
 .content{
@@ -223,9 +224,10 @@ hr{
     gap: 20px;
     width: 80%;
     justify-items: center;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: auto;
+    /* position: relative; */
+    /* left: 50%;
+    transform: translateX(-50%); */
 }
 
 .landingText{
@@ -255,8 +257,6 @@ hr{
     clip-path: path("M 10,0 L 490,0 A 10,10, 0,0,1 500,10 L 500,110 A 10,10, 0,0,1 490,120 L 400,120 A 10,10, 0,0,0 390,130 L 390,140 A 10,10, 0,0,1 380,150 L 10,150 A 10,10, 0,0,1 0,140 L 0,10 A 10,10, 0,0,1 10,0 Z");
     position: absolute;
     z-index: -1;
-
-    
 }
 
 .img-container{
@@ -418,25 +418,113 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 14rem;
+    height:auto;
+    }
+
+    .recipe{
+        background: linear-gradient(295deg, #ecebe9, #ccd1c5);
+        display: flex;
+        align-items: center;
+        width: 350px;
+        height: 150px;
+        clip-path: path("M 10,30 L 330,30 A 10,10, 0,0,1 340,40 L 340,110 A 10,10, 0,0,1 330,120 L 220,120 A 10,10, 0,0,0 210,130 L 210,140 A 10,10, 0,0,1 200,150 L 10,150 A 10,10, 0,0,1 0,140 L 0,40 A 10,10, 0,0,1 10,30 Z");
+        position: relative;
+        }
+
+    .recipeShadow{
+        background-color: rgb(191, 191, 191);
+        inset: 0;
+        top: .9%;
+        left: 0.1%;
+        width: 350px;
+        height: 150px;
+        clip-path: path("M 10,30 L 330,30 A 10,10, 0,0,1 340,40 L 340,110 A 10,10, 0,0,1 330,120 L 220,120 A 10,10, 0,0,0 210,130 L 210,140 A 10,10, 0,0,1 200,150 L 10,150 A 10,10, 0,0,1 0,140 L 0,40 A 10,10, 0,0,1 10,30 Z");
+        position: absolute;
+        z-index: -1;
     }
 
     .about{
-    width: 70%;
+        width: 70%;
     }
 
     hr{
-    margin: 75px 200px 0px 200px;
+        margin: 5px 200px 5px 200px;
     }
 
     .recipeContainer{
-    margin-top: 10px;
+        margin-top: 10px;
+    }
+
+    .recipeButton{
+        right: 3%;
     }
 
     .preparationDetailsContainer{
-    width: 90%;
-    height: 90vh;
-    border-radius: 20px;
-    align-items: center;
+        width: 90%;
+        height: 90vh;
+        border-radius: 20px;
+        align-items: center;
+    }
+
+    #meal-name{
+        text-align: left;
+        font-size: 1.15rem;
+        font-family:"Merriweather";
+        color: var(--clr-greenDark);
+    }
+
+    #meal-details{
+        top: 65%;
+
+    }
 }
+
+/* ============= Max 480 =================*/
+
+@media (max-width: 480px){
+
+        hr{
+     margin: 5px 200px 0px 200px;
+    }
+
+
+    .recipe{
+        background: linear-gradient(295deg, #ecebe9, #ccd1c5);
+        display: flex;
+        align-items: center;
+        width: 350px;
+        height: 150px;
+        clip-path: path("M 10,30 L 330,30 A 10,10, 0,0,1 340,40 L 340,110 A 10,10, 0,0,1 330,120 L 220,120 A 10,10, 0,0,0 210,130 L 210,140 A 10,10, 0,0,1 200,150 L 10,150 A 10,10, 0,0,1 0,140 L 0,40 A 10,10, 0,0,1 10,30 Z");
+        position: relative;
+        }
+
+    .recipeShadow{
+        background-color: rgb(191, 191, 191);
+        inset: 0;
+        top: .9%;
+        left: 0.1%;
+        width: 350px;
+        height: 150px;
+        clip-path: path("M 10,30 L 330,30 A 10,10, 0,0,1 340,40 L 340,110 A 10,10, 0,0,1 330,120 L 220,120 A 10,10, 0,0,0 210,130 L 210,140 A 10,10, 0,0,1 200,150 L 10,150 A 10,10, 0,0,1 0,140 L 0,40 A 10,10, 0,0,1 10,30 Z");
+        position: absolute;
+        z-index: -1;
+    }
+
+    .about{
+        background-color: #b3b3b3;
+        margin: 10px 0px; 
+        padding: 10px;
+        width: 80%;
+        height: auto;
+        border-radius: 2px;
+        }
+
+    .recipeButton{
+    right: 3%;
+    }
+
+    .recipeContainer{
+        grid-template-columns: 1fr;
+    }
+
 }
