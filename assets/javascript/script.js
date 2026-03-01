@@ -111,3 +111,4 @@ searchBox.addEventListener('keydown', (e) => {
 recipeCloseBtn.addEventListener('click', () => {
     preprationDetailsInfo.parentElement.style.display = 'none'
 })
+
