@@ -12,10 +12,30 @@ Flavor Atlas is a comprehensive recipe search platform designed to help users di
 Flavor Atlas serves as both a practical cooking guide and an educational resource, connecting users to culinary traditions globally. Whether you are a beginner in the kitchen or an experienced cook looking for inspiration, Flavor Atlas makes it easy to find, understand, and recreate dishes from across cultures.
 
 # Userstories
+documentation for user stories can be found [here](/documentation/user_stories/user_stories.xlsx)
+
+- ### As a user
+    *-* I want to know the category of the recipe (e.g., dessert, main course), So that I can decide if it suits the occasion.
+
+    *-* I want to search for a meal by name, So that I can quickly find relevant recipes.
+
+    *-* I want to see an image of the selected meal, So that I know what the finished dish should look like.
+
+    *-* I want to view a list of ingredients for a recipe, So that I can prepare everything I need before cooking.
+
+    *-* I want to see step-by-step cooking instructions, So that I can correctly prepare the meal.
+
+    *-* I want to know the category of the recipe (e.g., dessert, main course), So that I can decide if it suits the occasion.
+
 
 # Design of the Website 
 
 ## Colours:
+
+* #3a6d0a - this was used for as a gradient for the header 
+* #6cbd1a - this was used as a gradient for the header and also for the search bar 
+* #6b675c - this was used for text
+* #313131 - the was used for text 
 
 ## Technologies
 
@@ -65,19 +85,27 @@ The site was deployed to GitHub pages.
 
 # Credits
 
-## API
+### API
 API used was from [The Meal DB](https://www.themealdb.com)
 
-## Images 
+### Images 
 images were from [Unpslash](https://unsplash.com),
 [The Meal DB](https://www.themealdb.com)
 
-## Icons
+### Icons
 Icons were downloaded from [box icons](https://boxicons.com) 
 
-## Tutorials
+### Tutorials
+Research was done on the following tutorials 
 
-## Other websites used 
+[Fetch](https://www.youtube.com/watch?v=ubw2hdQIl4E)
+
+
+[Async](https://www.youtube.com/watch?v=QSqc6MMS6Fk)
+
+[API](https://www.youtube.com/watch?v=wbQLEXg_urE)
+
+### Other websites used 
 
 [w3school](https://www.w3schools.com/html/)
 
