@@ -1,1 +1,63 @@
-# project-2
+# FlavorAtlas
+
+
+# Introduction
+
+# Userstories
+
+# Design of the Website 
+
+## Colours:
+
+## Technologies Used 
+
+## Languages Used 
+
+* HTML
+* CSS
+* Javascript
+
+### Frameworks, libraries and programs used
+*  [Google Fonts](https://fonts.google.com/): was used to import the roboto and raleway fonts into style.css
+* [box icons](https://boxicons.com/icons?s=regular&w=normal&free=true): was used to import the icons for the mobile menu and social media icons 
+* [Git](https://git-scm.com/): Version control was managed by using the Gitpod terminal to commit changes to Git and push updates to GitHub.
+* [GitHub](https://github.com/): It is used as the repository for the project’s code after it has been pushed from Git.
+* [UI dev](https://ui.dev/amiresponsive): was used to create wire frames for the different devices 
+* [figma](https://www.figma.com): was used to create the different wire frames for the different screens 
+* [Visual Studio Code](https://code.visualstudio.com/): was used as code editor.
+* [pixelmator pro](https://www.pixelmator.com/pro/): was used for image compression and editing 
+
+# Wireframes
+* Home
+![alt text](/documentation/wire_frames/home.png)
+
+* Meals
+¡[alt text](/documentation/wire_frames/Meals.png)
+
+* Instruction and preparation
+![alt text](/documentation/wire_frames/instructions_preparations.png)
+
+# Testing
+* ![HTML Validator](/documentation/code_validation/html_validation.png) was used throughout the project to identify and fix minor syntax errors. No errors or warnings were detected at the final stage. 
+
+
+* ![CSS Validator](/documentation/code_validation/css_validation.png) was used throughout the project to identify and fix minor syntax errors. No errors or warnings were detected at the final stage. 
+
+
+* ![JSHINT Validator](/documentation/code_validation/js_validation.png) was used throughout the project to identify and fix minor syntax errors. No errors or warnings were detected at the final stage. 
+
+## User Story Testing 
+* Simple, user-friendly navigation throughout the site.
+
+
+# Deployment
+
+# Credits
+
+## Images 
+
+## Icons
+
+## Tutorials
+
+## Other websites used 
