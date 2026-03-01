@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 
 *{
     margin: 0;
@@ -18,6 +15,7 @@ button{
     --clr-darker-grey:#3e3e3e;
     --clr-lighterGrey: #545454;
     --clr-greenDark: #3a6d0a;
+    --yellow: #dcd110;
 }
 
 
@@ -130,15 +128,15 @@ form{
 }
 
 
-.search-button{
-    background-color: #4c9d36;
+#search-button{
+    background-color: var(--yellow);
     border-radius: 0 20px 20px 0;
     padding: 5px;
     cursor: pointer;
 }
 
 .searchBox{
-    border: solid 2px #4c9d36;
+    border: solid 2px var(--yellow);
     border-radius: 20px 0 0 20px;
     width: 300px;
     z-index: 100;
@@ -150,7 +148,7 @@ form{
 }
 
 #search-icon:hover{
-    color: #ddff02;
+    color: var(--clr-greenDark);
 }
 
 .searchBox::placeholder{
@@ -175,7 +173,7 @@ input{
 
 
 .about{
-    background-color: #b3b3b3;
+    background-color: #d9dcd6;
     margin: 10px 0px; 
     padding: 10px;
     width: 45%;
@@ -208,7 +206,7 @@ input{
 
 .funText{
     font-weight: 800;
-    color: #45ad09;
+    color: var(--clr-greenDark);
 }
 
 hr{

@@ -8,11 +8,11 @@ const recipeCloseBtn = document.querySelector('.recipe-close-btn');
 
 async function fetchData (input){
     try{
-        const response = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${input}`)
+        const response = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${input}`);
         const recipies = await response.json();
-        return recipies
+        return recipies;
     } catch(e){
-        console.log(e)
+        console.log(e);
     }
 }
 
@@ -21,12 +21,12 @@ async function displayRecipe(){
     const recipeSearch = searchBox.value.trim();
     recipeContainer.innerHTML = "";
 
-    const recipe = await fetchData(recipeSearch)
+    const recipe = await fetchData(recipeSearch);
 
     recipe.meals.forEach(meal => {
-         const recipeDiv = document.createElement('div')
+         const recipeDiv = document.createElement('div');
          recipeDiv.classList.add('recipe');
-         const recipeDiv2 = document.createElement('div')
+         const recipeDiv2 = document.createElement('div');
         recipeDiv2.classList.add('recipeShadow');
         recipeDiv.innerHTML = `
             <div class="img-container">
@@ -36,22 +36,22 @@ async function displayRecipe(){
                     <h3 id="meal-name">${meal.strMeal}</h3>
                     <p id="meal-details">${meal.strArea} recipe | ${meal.strCategory}</p>
              </div>
-             `
+             `;
          const button = document.createElement("button") ;
          button.classList.add("recipeButton");
          button.textContent = "recipe";
 
           //  adding event listener to recipe button 
         button.addEventListener('click', () => {
-            Popup(meal)
-        })
+            Popup(meal);
+        });
 
          const detailsContainer = document.createElement('div');
-         detailsContainer.classList.add('detailsContainer')
+         detailsContainer.classList.add('detailsContainer');
 
-         detailsContainer.appendChild(recipeDiv)
+         detailsContainer.appendChild(recipeDiv);
          detailsContainer.appendChild(button);
-         detailsContainer.appendChild(recipeDiv2)
+         detailsContainer.appendChild(recipeDiv2);
         recipeContainer.appendChild(detailsContainer);  
 
      });
@@ -89,7 +89,7 @@ function Popup(meal) {
                 <p class="instructions">${meal.strInstructions}</p>
             </div>
         <div>
-    `
+    `;
     preprationDetailsInfo.parentElement.style.display = 'block';
     
 }
@@ -99,16 +99,16 @@ function Popup(meal) {
 searchBtn.addEventListener('click', (e)=>{
     e.preventDefault();
     displayRecipe();
-})
+});
 
 searchBox.addEventListener('keydown', (e) => {
     if(e.key === 'Enter'){
         e.preventDefault();
         displayRecipe();
     }
-})
+});
 
 recipeCloseBtn.addEventListener('click', () => {
-    preprationDetailsInfo.parentElement.style.display = 'none'
-})
+    preprationDetailsInfo.parentElement.style.display = 'none';
+});
 
