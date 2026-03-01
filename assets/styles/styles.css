@@ -225,7 +225,6 @@ hr{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
-    width: minmax(1200px, 80%);
     justify-items: center;
     margin-top: 20px;
 }
