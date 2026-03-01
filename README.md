@@ -11,7 +11,7 @@ Flavor Atlas is a comprehensive recipe search platform designed to help users di
 
 Flavor Atlas serves as both a practical cooking guide and an educational resource, connecting users to culinary traditions globally. Whether you are a beginner in the kitchen or an experienced cook looking for inspiration, Flavor Atlas makes it easy to find, understand, and recreate dishes from across cultures.
 
-# Userstories
+# User stories
 documentation for user stories can be found [here](/documentation/user_stories/user_stories.xlsx)
 
 - ### As a user
@@ -59,7 +59,7 @@ documentation for user stories can be found [here](/documentation/user_stories/u
 ![alt text](/documentation/wire_frames/home.png)
 
 * Meals
-¡[alt text](/documentation/wire_frames/Meals.png)
+![alt text](/documentation/wire_frames/Meals.png)
 
 * Instruction and preparation
 ![alt text](/documentation/wire_frames/instructions_preparations.png)
@@ -76,7 +76,23 @@ documentation for user stories can be found [here](/documentation/user_stories/u
 * ![Lighthouse Validator](/documentation/lighthouse/lighthouse_validation.png) was used for improving the quality of web pages.
 
 ## User Story Testing 
-* Simple, user-friendly navigation throughout the site.
+* Search button hover 
+![alt text](/documentation/user_stories/hover_effect_on_search_bar_test.png)
+
+* Input search bar 
+![alt text](/documentation/user_stories/input_search_test.png)
+
+* Meal search test
+![alt text](/documentation/user_stories/meal_search_test.png)
+
+* Recipe button hover 
+![alt text](/documentation/user_stories/recipe_button_hover_test.png) 
+
+* Recipe button test
+![alt text](/documentation/user_stories/recipe_button_test.png)
+
+* Close button test
+![alt text](/documentation/user_stories/close_button_hover_test.png)
 
 
 # Deployment
