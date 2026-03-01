@@ -94,6 +94,11 @@ documentation for user stories can be found [here](/documentation/user_stories/u
 * Close button test
 ![alt text](/documentation/user_stories/close_button_hover_test.png)
 
+* Empty input
+![alt text](/documentation/user_stories/empty_input.png)
+
+* Invalid input
+![alt text](/documentation/user_stories/invalid_input_test.png)
 
 # Deployment
 The site was deployed to GitHub pages. 
